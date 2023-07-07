@@ -1,0 +1,25 @@
+body {
+    background-color: #EEE8AA;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#funButton {
+    background-color: #F08080;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}
