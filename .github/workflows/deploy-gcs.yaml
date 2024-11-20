@@ -13,9 +13,9 @@ jobs:
 
     - uses: google-github-actions/setup-gcloud@v0
       with:
-        service_account_email: ${{ secrets.GCP_SA_EMAIL }}
-        service_account_key: ${{ secrets.GCP_SA_KEY }}
-        project_id: github-actions-gcs
+        service_account_email: ${{ secrets.GCP_KEY }}
+        service_account_key: ${{ secrets.GCP_VALUE }}
+        project_id: directed-asset-393210
 
     - name: Deploy via GCS
       run: |
